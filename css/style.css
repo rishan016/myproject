@@ -1,0 +1,249 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{font-family: 'Poppins', sans-serif;
+font-size: 14px;
+line-height: 1.7em;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Poppins', sans-serif;
+}
+a{text-decoration: none}
+a:hover{text-decoration: none}
+img{max-width: 100%;
+height: auto;}
+
+
+
+
+
+.container{
+	width:1140px;
+	margin:0px  auto;
+
+
+}
+
+.row{
+	width: 100%;
+	float: left;
+
+}
+.col-12{
+	width: 100%;
+	float: left ;
+}
+
+.col-6{
+	width: 50%;
+	float: left ;
+}
+
+.col-4{width: 33.33%;
+	float: left ;}
+
+
+.innner-header{
+	display: flex;
+	justify-content:space-between ;
+
+}
+.logo{
+	width: 120px;
+
+}
+.navbar ul li{
+	list-style: none;
+display: inline-block;}
+
+
+
+
+.header {
+
+	width: 100%;
+	margin: 10px 0px ;
+	float: left;
+	border-bottom: 1px solid #eee;
+}
+.header .navbar {
+	width: 100%;
+	display: block;
+text-align: right;}
+
+	.header .navbar li{
+		list-style: none;
+		display: inline-block;
+	 flex: ;
+
+	}
+.header .navbar li a{
+	display: block;
+	font-size: 14px;
+	font-weight:400 ;
+	text-transform: capitalize;
+	margin: 20px 0px 0px 20px;\
+	color: 0F2656;
+}
+
+
+ .banner
+   
+   {
+
+	width: 100%;
+	float: left;
+	text-align: center;
+	
+	padding: 80px 0px 20px ;
+}
+
+.banner h1{
+	font-size: 52px;
+	line-height: 1.4em;
+	color: #0F2656;
+	font-weight: 700;
+	margin: 0px 0px 10px ;
+}
+
+
+.banner  h1 span{color: #008AFF }
+
+
+.banner p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #0F2656;
+	font-weight: 400;
+	margin: 0px 0px 20px;
+} 
+
+
+.banner .banner-img{
+	width: 60%;
+
+}
+
+
+.successfull{
+	width: 100%;
+	float: left;
+	padding: 40px 0px 35px;
+}
+.successfull .left-box {
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.successfull .left-box  h1{
+		font-size: 52px;
+	line-height: 1.4em;
+	color: #f15666;
+	font-weight: 700;
+	margin: 0px 15px 5px 0px ;
+
+}
+.successfull .left-box p{
+		font-size: 14px;
+	line-height: 1.7em;
+	color: #0F2656;
+	font-weight: 400;
+	margin: 0px 15px 0px 0px;
+
+}
+.successfull .right-box
+{
+	width: 100%;
+	float: left;
+}
+.successfull .right-box  h1{
+		font-size: 52px;
+	line-height: 1.2em;
+	color: #0F2656;
+	font-weight: 700;
+	margin: 0px 0px 5px  15px;
+}
+
+
+.features{
+	width: 100%;
+	float: left;
+	padding: 40px 0px ;
+}
+.features .inner-feature{
+	margin: 0px 15px ;
+	width: 76%;
+	padding: 0px 30px ;
+	
+} 
+
+
+
+.features .inner-feature img{
+	margin: 0px 0px 10px;
+height: 180px;
+width: 100%;	
+}
+
+
+
+.features .inner-feature h4{
+	font-size: 20px;
+	line-height: 1.2em;
+	color: #0F2656;
+	font-weight: 700;
+	margin: 0px 0px 10px ;
+}
+
+
+.features .inner-feature
+	p{
+		font-size: 14px;
+	line-height: 1.7em;
+	color: #0F2656;
+	font-weight: 400;
+	
+}
+
+.cl1{
+	background: #FDEBED;
+}
+
+
+.cl2{
+	background: #EBF9F4;
+}
+
+.cl3{background: #FFF7E8;}
+
+
+.footer{text-align: center;
+width: 100%;
+float: left;
+padding: 30px 0px;
+background: #008aff;}
+.footer p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #fofofo;
+	font-weight: 400;
+	text-align: center;
+	
+}
+.footer p a {
+	text-decoration: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #0F2656;
+}
+.footer p a:hover {
+	color:#fff ;
+}
+.footer p a:focus {
+	color:#FDEBED  ;
+}
+				.col-6.navbar:hover{color:#0F2656}
+
+.col-6 .logo :hover {color:#FDEBED}
